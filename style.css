@@ -1,0 +1,97 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(248, 223, 191);
+    margin-top: 20px ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.main{
+    border-radius: 10px;
+    background-color: white;
+    width: 960px;
+    margin-top: 40px;
+    
+}
+.img{
+    margin: 40px 20px;
+    display: flex;
+    justify-content: center;
+    border-radius: 5px;
+}
+img{
+    width: 900px;
+    border-radius: 5px;
+}
+
+h1{
+    font-weight: 400px;
+    font-size: 50px;
+    margin-left: 30px;
+    font-family: "Young Serif";
+    font-style: normal;
+}
+p{
+    margin: 10px 30px;
+    font-size: 16px;
+    font-family: sans-serif;
+}
+
+.list{
+    background-color: rgb(252, 205, 252);
+    width: 900px;
+    margin-left: 30px;
+    border-radius: 10px;
+    margin-top: 10px;
+    font-family: sans-serif;
+}
+.list h3{
+   margin-left: 40px;
+   margin-bottom: 10px;
+   color: purple;
+   padding-top: 10px ;
+}
+.list ul li{
+    margin: 5px 40px;
+    padding: 2px 0px;
+}
+.scndlist h2{
+    margin: 20px 40px;
+    font-family: "Young Serif";
+    color: rgb(209, 79, 79);
+}
+.scndlist ul li{
+    margin-left: 60px;
+    padding: 8px 0px;
+}
+hr{
+    width: 900px;
+    margin: 10px 30px;
+}
+.thirdlist h2{
+    margin: 20px 40px;
+    font-family: "Young Serif";
+    color: rgb(209, 79, 79);
+}
+.thirdlist ol li{
+    margin-left: 60px;
+    padding: 2px 0px;
+    font-family: sans-serif;
+    font-weight: 200px;
+}
+.thirdlist ol li::marker{
+    color: rgb(209, 79, 79);
+}
+.lastlist h2{
+    margin: 20px 40px;
+    font-family: "Young Serif";
+    color: rgb(209, 79, 79);
+}
+.lastlist p{
+    margin: 20px 40px;
+    font-family: sans-serif;
+}
